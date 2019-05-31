@@ -4,8 +4,8 @@ class CleaningItem extends Component {
 
    
   render() {
-      let area = this.props.cleaning.area
-      let time = this.props.cleaning.time
+    let area = this.props.cleaning.area;
+    let time = this.props.cleaning.time;
     let productivity =  (area / time).toFixed(4)  ; 
 
     let batNumber =  Math.floor(Math.random() * 100);
@@ -23,7 +23,6 @@ class CleaningItem extends Component {
        <br />
        <p>Battery: </p>
        <div className="progress">
-       
             <div className="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style={{width: batNumber + '%'}} > {batNumber + '%'}</div>
         </div>
        
