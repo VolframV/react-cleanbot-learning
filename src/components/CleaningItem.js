@@ -13,12 +13,11 @@ class CleaningItem extends Component {
     return (
       <div className="Cleaning">
 
-      <div className='col-sm'>
+      <div className='col-md'>
       
-     <h1><img alt="robot"src="https://vignette.wikia.nocookie.net/lab-rats/images/f/f3/Cartoon_Robot.png/revision/latest?cb=20151212205742" height='120ex' /> 
-     <strong>Bot{this.props.cleaning.robot} </strong> <br /> </h1>
-       Area Cleaned: <strong>{this.props.cleaning.area} </strong> Meters<br />
-       Cleaning Time: <strong>{((this.props.cleaning.time)/60).toFixed(2)} </strong>Hours<br />
+     <h1> CleanBot-{this.props.cleaning.robot} <br /> </h1>
+       Area Cleaned: <strong>{area} </strong> Meters<br />
+       Cleaning Time: <strong>{((time)/60).toFixed(2)} </strong>Hours<br />
        Productivity: <strong>{productivity}</strong>
        <br />
        <p>Battery: </p>
