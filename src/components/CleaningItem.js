@@ -13,7 +13,7 @@ class CleaningItem extends Component {
     return (
       <div className="Cleaning">
 
-      <div className='col-md'>
+      <div className='col-md-12'>
       
      <h1> CleanBot-{this.props.cleaning.robot} <br /> </h1>
        Area Cleaned: <strong>{area} </strong> Meters<br />
@@ -24,8 +24,9 @@ class CleaningItem extends Component {
        <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style={{width: batNumber + '%'}} > {batNumber + '%'}</div>
         </div>
-       
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
          <hr/>
+         
          </div>
       </div>
     );

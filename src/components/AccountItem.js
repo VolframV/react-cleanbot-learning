@@ -45,7 +45,7 @@ class AccountItem extends Component {
             <h2> Total Area Cleaned: <strong>{totalArea}</strong> Meters </h2>  <h2> Total Time: <strong>{(totalTime / 60).toFixed(2)}</strong> Hours </h2>
           </div>
         </div>
-      </div>
+          </div>
     );
   }
 }
