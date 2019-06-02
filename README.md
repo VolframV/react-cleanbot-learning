@@ -1,3 +1,5 @@
+React/Bootstrap dashboard for displaying information about each account and their cleanbots.
+
 ![Preview](https://i.imgur.com/0eOJZdz.png)
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
