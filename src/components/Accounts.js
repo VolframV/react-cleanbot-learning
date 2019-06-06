@@ -52,6 +52,7 @@ class Accounts extends Component {
 
                 <div className="accordion" id={"accordion"}>
                 </div>
+                
             </div>
 
 
